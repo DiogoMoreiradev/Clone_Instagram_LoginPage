@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 30px;
+}
+.form-box {
+    display: flex;
+    width: 400px;
+    min-height: 300px;
+    flex-direction: column;
+    border: 1px solid rgb(168, 
+    160, 160, 0.664);
+    padding: 20px 20px 10px 20px;
+    align-items: center;
+}
+.form-box input {
+    border: 1px solid gray;
+    background-color: rgba(238, 238, 238, 0.726);
+    padding: 10px 5px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.form-box input::placeholder {
+    color: rgb(71, 67, 67);
+    font-weight: 100;
+}
+#insta {
+    margin-bottom: 30px;
+}
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    background-color: #AEDEFC;
+    border: 1px solid rgba(128, 128, 128, 0.89);
+    border-radius: 5px;
+
+}
+.other-login {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.other-login .line {
+    border-top: 1px solid rgb(128, 128, 128, 0.808);
+    width: 100px;
+}
+.other-login p {
+    text-transform: uppercase;
+    color: rgb(128, 128, 128, 0.808);
+}
+.facebook-entrace {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+}
+.facebook-entrace a {
+    text-decoration: none;
+    color: #1F4287;
+    font-weight: bold;
+}
+#forgot-pass {
+    color: rgba(0, 0, 255, 0.800);
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.cad-box {
+    display: flex;
+    border: 1px solid rgb(168, 
+    160, 160, 0.664) ;
+    width: 100%;
+    min-height: 70px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.cad-box a {
+    color: #2691d3;
+    text-decoration: none;
+    font-weight: bold;
+}
+.app {
+    line-height: 60px;
+    text-align: center;
+}
+.app-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-options img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease 1s;
+}
+footer {
+    margin: 40px 0 60px 0;
+}
+.other-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: rgb(170, 162, 162);
+    font-size: 15px;
+    font-family: Helvetica;
+    align-items: center;
+    justify-content: center;
+}
+.other-links li {
+    cursor: pointer;
+}
+.copy {
+    display: flex;
+    color: rgb(170, 162, 162);
+    font-size: 15px;
+    font-family: Helvetica;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+@media screen and (max-width: 800px) {
+    #banner {
+        display: none;
+    }
+    .other-links {
+        flex-wrap: wrap;
+    }
+}
